@@ -27,10 +27,10 @@ Second is using Make file liek that ex:<br>
 
 <br />
 <br />
-When everything is set depeneds on your project of cakePHP.<br />
+***When everything is set depeneds on your project of cakePHP.***
 <br />
-New Project:<br />
-Using MakeFile << using app name in .env >> <br />
+***New Project:<br />***
+***Using MakeFile << using app name in .env >> <br />***
 >composer-generate-cake
 <br />
 second,<br />
