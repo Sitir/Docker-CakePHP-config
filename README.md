@@ -24,9 +24,9 @@ can be lunch in two ways.
 First is using command line or aliases in ./bashrc look in file bash_shorcuts_functions.&nbsp;
 <br />
 Second is using Make file liek that ex: <br />
-<br />
+&nbsp;
 >make docker-start 
-<br />
+&nbsp;
 **Make sure to have MakeFile in main directory when lunching this command.**
 <br />
 When everything is set depeneds on your project of cakePHP.
