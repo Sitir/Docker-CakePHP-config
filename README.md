@@ -85,8 +85,8 @@ This project use the following ports :
 | Server     | Port |
 |------------|------|
 | MySQL      | 8989 |
-| PHPMyAdmin | 8080 |
-| Nginx      | 8000 |
+| PHPMyAdmin | 8070 |
+| Nginx      | 8080 |
 | Nginx SSL  | 3000 |
 
 ----------------------------------
