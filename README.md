@@ -30,8 +30,8 @@ First is using command line or aliases in ./bashrc look in file bash_shorcuts_fu
 <br />
 **When everything is set depeneds on your project of cakePHP.**
 <br />
-**New Project:<br />***
-**Using MakeFile << using app name in .env >> <br />**
+**New Project:** <br />
+**Using MakeFile << using app name in .env >>** <br />
 > composer-generate-cake
 <br />
 second,<br />
