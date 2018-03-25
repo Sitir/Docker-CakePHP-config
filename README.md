@@ -32,7 +32,7 @@ Second is using Make file liek that ex: <br />
 When everything is set depeneds on your project of cakePHP.
 <br />
 New Project: <br /> <br />
-Using MakeFile << using app name in .env >>** <br />
+Using MakeFile << using app name in .env >> <br />
 >composer-generate-cake  <br />
 <br />
 second, <br />
