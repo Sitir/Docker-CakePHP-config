@@ -23,7 +23,7 @@ First is using command line or aliases in ./bashrc look in file bash_shorcuts_fu
 <br />
 Second is using Make file liek that ex:<br>
 > make docker-start<br />
-***Make sure to have MakeFile in main directory when lunching this command.
+***Make sure to have MakeFile in main directory when lunching this command.***
 
 <br />
 <br />
