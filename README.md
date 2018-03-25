@@ -5,7 +5,7 @@
 
 >*On pre Windows 10 systems without Hyper-V, use Docker Toolbox.
 ***
-<br>
+<br />
 #### Set daemon of docker
 >(sudo) dockerd<br />
 ##### Every time you restart, turn on your pc no need to start service of docker (sudo service docker start).<br />
