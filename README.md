@@ -27,8 +27,8 @@ Second is using Make file liek that ex: <br />
 <br />
 >make docker-start 
 <br />
-###### Make sure to have MakeFile in main directory when lunching this command.
-
+**Make sure to have MakeFile in main directory when lunching this command.**
+<br />
 When everything is set depeneds on your project of cakePHP.
 <br />
 New Project: <br /> <br />
@@ -38,5 +38,5 @@ second, <br />
 ###### Make sure to set at the end app name. <br />
 After that this container will be terminaed and It'll be no running anylonger. <br />
 >docker run --rm -v composer create-project --prefer-dist --ignore-platform-reqs cakephp/app {{APP_NAME SET MANUALLY}} <br />
-
-
+<br />
+<br />
