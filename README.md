@@ -26,8 +26,6 @@ First is using command line or aliases in ./bashrc look in file bash_shorcuts_fu
 
 ###### Make sure to have MakeFile in main directory when lunching this command.
 
-<br />
-<br />
 **When everything is set depeneds on your project of cakePHP.**
 <br />
 **New Project:** <br />
