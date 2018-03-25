@@ -26,7 +26,7 @@ First is using command line or aliases in ./bashrc look in file bash_shorcuts_fu
 Second is using Make file liek that ex: <br />
 &nbsp;
 >make docker-start 
-&nbsp;&nbsp;
+&nbsp;&nbsp; <br />
 **Make sure to have MakeFile in main directory when lunching this command.**
 <br />
 When everything is set depeneds on your project of cakePHP.
