@@ -36,8 +36,8 @@ First is using command line or aliases in ./bashrc look in file bash_shorcuts_fu
 >composer-generate-cake&nbsp;
 &nbsp;
 second,&nbsp;
-**Make sure to set at the end app name.&nbsp;
-After that this container will be terminaed and It'll be no running anylonger.**&nbsp;
+**Make sure to set at the end app name.** &nbsp;
+**After that this container will be terminaed and It'll be no running anylonger.** &nbsp;&nbsp;
 > docker run --rm -v composer create-project --prefer-dist --ignore-platform-reqs cakephp/app {{APP_NAME SET MANUALLY}}
 
 
