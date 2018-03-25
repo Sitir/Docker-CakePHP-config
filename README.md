@@ -33,8 +33,8 @@ When everything is set depeneds on your project of cakePHP.
 <br />
 New Project: <br /> <br />
 Using MakeFile << using app name in .env >>** <br />
->composer-generate-cake 
-<br /><br />
+>composer-generate-cake  <br />
+<br />
 second, <br />
 Make sure to set at the end app name. <br />
 After that this container will be terminaed and It'll be no running anylonger. <br />
