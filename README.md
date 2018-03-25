@@ -13,7 +13,7 @@
 #### Set config file in .env
 > host<br />
 > app name<br />
-> MYsql Config<br />
+> Mysql Config(host,database,root,user,pass)<br />
 
 #### Don't modify any other files!
 
@@ -30,7 +30,12 @@ Second is using Make file liek that ex:<br>
 When everything is set depeneds on your project of cakePHP.<br />
 <br />
 New Project:<br />
-You can generate in two ways:
-
+Using MakeFile << using app name in .env >> <br />
+>composer-generate-cake
+<br />
+second,<br />
+***Make sure to set at the end app name.<br />
+After that this container will be terminaed and It'll be no running anylonger.***
+>docker run --rm -v composer create-project --prefer-dist --ignore-platform-reqs cakephp/app {{APP_NAME SET MANUALLY}}
 
 
