@@ -21,7 +21,20 @@
 
 ## How to Run
 can be lunch in two ways.
-First is using command line or aliases in ./bashrc look in file bash_shorcuts_functions.
+First is using command line or aliases in ./bashrc look in file bash_shortcuts .:
+
+copy entire file in to the bashrc.
+
+> bash_shortcuts >> ~/.bashrc (>> means to apppend not the overwrite).
+
+> docker-compose up / bulid **-> when you change settings in yml file.**
+
+#### Setting the path to docker-compose 
+
+> export PATH=${PATH}:/usr/local/bin/
+
+It will be added in the bash_shortcuts.
+
 
 Second is using Make file liek that ex: 
 
@@ -52,7 +65,7 @@ Via git
 
 git clone project http://yourproject.git
 
-clone the project in to the myapp in main folder like that : mainCatalogueOfDockerCAKE/myapp/__yourrepository__
+clone the project in to the myapp in main folder like that : folderStructure/myapp/__yourrepository__
 
 than using make: **alawys remember to set catalogue name same as name app in .env**
 
