@@ -34,13 +34,44 @@ When everything is set depeneds on your project of cakePHP.
 
 New Project:
 
-Using MakeFile using app name in .env &nbsp;>composer-generate-cake.
+Using MakeFile using app name in .env 
+
+>composer-generate-cake.
 
 second,
 
-###### Make sure to set at the end app name.
+**Make sure to set at the end app name.**
 
 After that this container will be terminaed and It'll be no running anylonger. 
 
->docker run --rm -v composer create-project --prefer-dist --ignore-platform-reqs cakephp/app {{APP_NAME SET MANUALLY}} <br />
+>docker run --rm -v $(shell pwd)/myapp:/app composer create-project --prefer-dist --ignore-platform-reqs cakephp/app ${APP_NAME}
 
+Already existed Project:
+
+Via git
+
+git clone project http://yourproject.git
+
+clone the project in to the myapp in main folder like that : mainCatalogueOfDockerCAKE/myapp/__yourrepository__
+
+than using make: **alawys remember to set catalogue name same as name app in .env**
+
+>make comoposer-up
+
+or
+
+>docker run --rm -v $(shell pwd)/myapp/${APP_NAME}:/app composer update
+
+
+----------------------------------
+
+This project use the following ports :
+
+| Server     | Port |
+|------------|------|
+| MySQL      | 8989 |
+| PHPMyAdmin | 8080 |
+| Nginx      | 8000 |
+| Nginx SSL  | 3000 |
+
+----------------------------------
