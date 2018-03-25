@@ -7,7 +7,7 @@
 ***
 &nbsp;
 #### Set daemon of docker
->(sudo) dockerd<br />
+>(sudo) dockerd&nbsp;
 ##### Every time you restart, turn on your pc no need to start service of docker (sudo service docker start).&nbsp;
 ##### There might be troubleshoot conflicts between the daemon.json and startup scripts.&nbsp;
 
