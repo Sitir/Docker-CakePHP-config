@@ -14,8 +14,10 @@
 > host<br />
 > app name<br />
 > Mysql Config(host,database,root,user,pass)<br />
-
+***
 #### Don't modify any other files!
+***
+
 ## How to Run
 can be lunch in two ways.
 First is using command line or aliases in ./bashrc look in file bash_shorcuts_functions. <br />
