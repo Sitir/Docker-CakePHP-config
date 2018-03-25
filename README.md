@@ -23,21 +23,21 @@
 can be lunch in two ways.
 First is using command line or aliases in ./bashrc look in file bash_shorcuts_functions.&nbsp;
 &nbsp;
-**Second is using Make file liek that ex:** <br />
+Second is using Make file liek that ex: <br />
 <br />
 >make docker-start 
 <br />
 ###### Make sure to have MakeFile in main directory when lunching this command.
 
-**When everything is set depeneds on your project of cakePHP.**
+When everything is set depeneds on your project of cakePHP.
 <br />
-**New Project:** <br /> <br />
-**Using MakeFile << using app name in .env >>** <br />
+New Project: <br /> <br />
+Using MakeFile << using app name in .env >>** <br />
 >composer-generate-cake 
 <br /><br />
 second, <br />
-**Make sure to set at the end app name.** <br />
-**After that this container will be terminaed and It'll be no running anylonger.** <br />
+Make sure to set at the end app name. <br />
+After that this container will be terminaed and It'll be no running anylonger. <br />
 > docker run --rm -v composer create-project --prefer-dist --ignore-platform-reqs cakephp/app {{APP_NAME SET MANUALLY}} <br />
 
 
