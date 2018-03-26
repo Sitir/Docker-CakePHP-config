@@ -92,12 +92,16 @@ First is using command line or aliases in ./bashrc look in file bash_shortcuts .
 copy entire file in to the bashrc.
 
 ```sh 
-bash_shortcuts >> ~/.bashrc (>> means to apppend not the overwrite).
+bash_shortcuts >> ~/.bashrc 
 ```
 
+(>> means to apppend not the overwrite).
+
 ```sh 
-docker-compose up / bulid **-> when you change settings in yml file. 
+docker-compose up / bulid 
 ```
+
+**-> when you change settings in yml file. 
 
 #### Setting the path to docker-compose 
 
@@ -124,7 +128,7 @@ New Project:
 Using MakeFile using app name in .env 
 
 ```sh 
-composer-generate-cake. 
+sudo make composer-generate-cake. 
 ```
 
 second,
@@ -150,7 +154,7 @@ clone the project in to the myapp in main folder like that : folderStructure/mya
 than using make: **alawys remember to set catalogue name same as name app in .env**
 
 ```sh 
-make comoposer-up
+sudo make comoposer-up
 ```
 
 or
