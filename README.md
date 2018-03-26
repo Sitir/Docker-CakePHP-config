@@ -11,13 +11,21 @@ This project contain (NGINX, PHP 7, MYSQL, PHPMyAdmin, Composer), so You don't t
 To use it just clone project and clean .git if you want to take entire project but my suggetion is to commit just myapp/your_app_name_project instead of all.
 
 Directory structure:
+
 docker_config: 
+
               vhost.conf   - nginx config set for cakePHP
+              
               DockerFile   - for php container 
+              
               php.ini      - for the debug (soon it will be added I need to set few things)
+              
 .env - config file where you need to set:
+
               NGINX_HOST - is set to localhost but you can use whatever you want but make sure to set it in /etc/hosts
+              
               APP_NAME   - here you need to set your app_name which is also named as your catalouge name
+              
               MySQL      - here just set the conig for mySql and make sure to set the same thing in,
                            app.php and instead of localhost use host_mysql.
                            
