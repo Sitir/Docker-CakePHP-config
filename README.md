@@ -22,11 +22,17 @@ On pre Windows 10 systems without Hyper-V, use Docker Toolbox.
 #### Set config file in .env
 
 
-```sh host ```
+```sh 
+host 
+```
 
-```sh app name ```
+```sh
+app name 
+```
 
-```sh Mysql Config(host,database,root,user,pass) ```
+```sh 
+Mysql Config(host,database,root,user,pass) 
+```
 
 ----------------------------------
 #### Don't modify any other files!
@@ -38,13 +44,19 @@ First is using command line or aliases in ./bashrc look in file bash_shortcuts .
 
 copy entire file in to the bashrc.
 
-```sh bash_shortcuts >> ~/.bashrc (>> means to apppend not the overwrite). ```
+```sh 
+bash_shortcuts >> ~/.bashrc (>> means to apppend not the overwrite).
+```
 
-```sh docker-compose up / bulid **-> when you change settings in yml file. ```
+```sh 
+docker-compose up / bulid **-> when you change settings in yml file. 
+```
 
 #### Setting the path to docker-compose 
 
-```sh export PATH=${PATH}:/usr/local/bin/ ```
+```sh
+export PATH=${PATH}:/usr/local/bin/
+```
 
 It will be added in the bash_shortcuts.
 
@@ -64,7 +76,9 @@ New Project:
 
 Using MakeFile using app name in .env 
 
-```sh composer-generate-cake. ```
+```sh 
+composer-generate-cake. 
+```
 
 second,
 
@@ -72,23 +86,30 @@ second,
 
 After that this container will be terminaed and It'll be no running anylonger. 
 
- ```sh docker run --rm -v $(shell pwd)/myapp:/app composer create-project --prefer-dist --ignore-platform-reqs cakephp/app ${APP_NAME} ```
+ ```sh 
+ docker run --rm -v $(shell pwd)/myapp:/app composer create-project --prefer-dist --ignore-platform-reqs cakephp/app ${APP_NAME} ```
 
 Already existed Project:
 
 Via git
 
-```sh git clone project http://yourproject.git ```
+```sh 
+git clone project http://yourproject.git 
+```
 
 clone the project in to the myapp in main folder like that : folderStructure/myapp/__yourrepository__
 
 than using make: **alawys remember to set catalogue name same as name app in .env**
 
->**make comoposer-up**
+```sh 
+make comoposer-up
+```
 
 or
 
->**docker run --rm -v $(shell pwd)/myapp/${APP_NAME}:/app composer update**
+```sh
+docker run --rm -v $(shell pwd)/myapp/${APP_NAME}:/app composer update
+```
 
 
 ----------------------------------
