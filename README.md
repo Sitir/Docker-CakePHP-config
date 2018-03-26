@@ -57,7 +57,7 @@ On pre Windows 10 systems without Hyper-V, use Docker Toolbox.
 ```
 ----------------------------------
 
-#### Set daemon of docker
+#### Turn on service of docker so it will always run on startup.
 
 ```sh
 (sudo) dockerd
