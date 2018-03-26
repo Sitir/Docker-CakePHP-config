@@ -87,7 +87,8 @@ second,
 After that this container will be terminaed and It'll be no running anylonger. 
 
  ```sh 
- docker run --rm -v $(shell pwd)/myapp:/app composer create-project --prefer-dist --ignore-platform-reqs cakephp/app ${APP_NAME} ```
+ docker run --rm -v $(shell pwd)/myapp:/app composer create-project --prefer-dist --ignore-platform-reqs cakephp/app ${APP_NAME} 
+ ```
 
 Already existed Project:
 
