@@ -44,9 +44,21 @@ you want to do it from exsiting project so you need to create this folder and in
 name as App_NAME in .env. Bellow there is instruction in install how to use with via git.
 
 
+----------------------------------
 
+This project use the following ports :
+
+| Server     | Port |
+|------------|------|
+| MySQL      | 8989 |
+| PHPMyAdmin | 8070 |
+| Nginx      | 8080 |
 
 ----------------------------------
+
+
+
+
 #### INSTALL
 ```sh
 Download Docker & docker-compose(tool for docker)**
@@ -164,14 +176,4 @@ docker run --rm -v $(shell pwd)/myapp/${APP_NAME}:/app composer update
 ```
 
 
-----------------------------------
 
-This project use the following ports :
-
-| Server     | Port |
-|------------|------|
-| MySQL      | 8989 |
-| PHPMyAdmin | 8070 |
-| Nginx      | 8080 |
-
-----------------------------------
