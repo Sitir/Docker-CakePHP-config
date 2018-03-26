@@ -1,22 +1,33 @@
 # Docker for CakePHP(full config)
 ----------------------------------
 #### INSTALL
->**Download Docker & docker-compose(tool for docker)**
+```sh
+Download Docker & docker-compose(tool for docker)**
+```
 
->**On pre Windows 10 systems without Hyper-V, use Docker Toolbox.**
+```sh
+On pre Windows 10 systems without Hyper-V, use Docker Toolbox.
+```
 ----------------------------------
 
 #### Set daemon of docker
 
->**(sudo) dockerd**
+```sh
+(sudo) dockerd
+```
 
 ##### Every time you restart, turn on your pc no need to start service of docker (sudo service docker start).
 ##### There might be troubleshoot conflicts between the daemon.json and startup scripts.
 ----------------------------------
 #### Set config file in .env
-> **host&nbsp;**
-> **app name&nbsp;**
-> **Mysql Config(host,database,root,user,pass)&nbsp;**
+
+
+```sh host ```
+
+```sh app name ```
+
+```sh Mysql Config(host,database,root,user,pass) ```
+
 ----------------------------------
 #### Don't modify any other files!
 ----------------------------------
@@ -27,20 +38,22 @@ First is using command line or aliases in ./bashrc look in file bash_shortcuts .
 
 copy entire file in to the bashrc.
 
-> **bash_shortcuts >> ~/.bashrc (>> means to apppend not the overwrite).**
+```sh bash_shortcuts >> ~/.bashrc (>> means to apppend not the overwrite). ```
 
-> **docker-compose up / bulid **-> when you change settings in yml file.**
+```sh docker-compose up / bulid **-> when you change settings in yml file. ```
 
 #### Setting the path to docker-compose 
 
-> **export PATH=${PATH}:/usr/local/bin/**
+```sh export PATH=${PATH}:/usr/local/bin/ ```
 
 It will be added in the bash_shortcuts.
 
 
 Second is using Make file liek that ex: 
 
->**make docker-start**
+```sh
+make docker-start 
+```
 
 **Make sure to have MakeFile in main directory when lunching this command.**
 
@@ -51,7 +64,7 @@ New Project:
 
 Using MakeFile using app name in .env 
 
->**composer-generate-cake.**
+```sh composer-generate-cake. ```
 
 second,
 
@@ -59,13 +72,13 @@ second,
 
 After that this container will be terminaed and It'll be no running anylonger. 
 
->**docker run --rm -v $(shell pwd)/myapp:/app composer create-project --prefer-dist --ignore-platform-reqs cakephp/app ${APP_NAME}**
+ ```sh docker run --rm -v $(shell pwd)/myapp:/app composer create-project --prefer-dist --ignore-platform-reqs cakephp/app ${APP_NAME} ```
 
 Already existed Project:
 
 Via git
 
->**git clone project http://yourproject.git**
+```sh git clone project http://yourproject.git ```
 
 clone the project in to the myapp in main folder like that : folderStructure/myapp/__yourrepository__
 
