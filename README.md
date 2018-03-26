@@ -1,5 +1,36 @@
 # Docker for CakePHP(full config) [![Build Status](https://travis-ci.org/patrka54/Docker-CakePHP-config.svg?branch=master)](https://travis-ci.org/patrka54/Docker-CakePHP-config.svg?branch=master)
 
+## Overview
+
+Using docker to developing CakePHP Project. Ofcourse you might use Vagrant to do it but docker has only things you need so entire project is less heavy than entire image of Vagrant.
+
+This project contain (NGINX, PHP 7, MYSQL, PHPMyAdmin, Composer), so You don't to need to install it.
+
+*Always run commands from the main directory of your docker project.
+
+To use it just clone project and clean .git if you want to take entire project but my suggetion is to commit just myapp/your_app_name_project instead of all.
+
+Directory structure:
+docker_config: 
+              vhost.conf   - nginx config set for cakePHP
+              DockerFile   - for php container 
+              php.ini      - for the debug (soon it will be added I need to set few things)
+.env - config file where you need to set:
+              NGINX_HOST - is set to localhost but you can use whatever you want but make sure to set it in /etc/hosts
+              APP_NAME   - here you need to set your app_name which is also named as your catalouge name
+              MySQL      - here just set the conig for mySql and make sure to set the same thing in,
+                           app.php and instead of localhost use host_mysql.
+                           
+composer.phar  - just composer so you can use on your server can be deleted, is not used in project yet(soon).
+
+docker-destroy-all.sh -  script clean everywthing usufully WARNING(delete all images & containers from docker)
+*Used to for testing but modified may be usufully anywhere you want.
+
+docker-compose.yml   - config file for dokcer compose is set and bulid is passing so do not modified this file.
+
+myapp   - is cataloge which composer create so please do not create it by yourself when you create new project, only when you want to do it from exsiting project so you need to create this folder and inside the project you need to set the same folder name as App_NAME in .env. Bellow there is instruction in install how to use with via git.
+
+
 ----------------------------------
 #### INSTALL
 ```sh
@@ -24,7 +55,7 @@ On pre Windows 10 systems without Hyper-V, use Docker Toolbox.
 
 
 ```sh 
-host 
+NGINX_HOST 
 ```
 
 ```sh
