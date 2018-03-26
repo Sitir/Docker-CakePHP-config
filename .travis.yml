@@ -20,7 +20,7 @@ before_script:
   - sudo make composer-generate-cake
 
 script:
-- sudoe make docker
+- sudo make docker-start
 
 after_script:
   - sudo make docker-stop
