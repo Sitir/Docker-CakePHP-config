@@ -54,6 +54,11 @@ This project use the following ports :
 | PHPMyAdmin | 8070 |
 | Nginx      | 8080 |
 
+
+TO conenct to web server use : localhost:8080
+
+To connect to phpMyAdmin use : localhost:8070
+
 ----------------------------------
 
 
