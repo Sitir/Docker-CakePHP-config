@@ -1,4 +1,5 @@
-# Docker for CakePHP(full config)
+# Docker for CakePHP(full config) [![Build Status](https://travis-ci.org/patrka54/Docker-CakePHP-config.svg?branch=master)](https://travis-ci.org/patrka54/Docker-CakePHP-config.svg?branch=master)
+
 ----------------------------------
 #### INSTALL
 ```sh
