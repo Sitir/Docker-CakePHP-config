@@ -32,11 +32,18 @@ docker_config:
 composer.phar  - just composer so you can use on your server can be deleted, is not used in project yet(soon).
 
 docker-destroy-all.sh -  script clean everywthing usufully WARNING(delete all images & containers from docker)
+
 *Used to for testing but modified may be usufully anywhere you want.
 
 docker-compose.yml   - config file for dokcer compose is set and bulid is passing so do not modified this file.
 
-myapp   - is cataloge which composer create so please do not create it by yourself when you create new project, only when you want to do it from exsiting project so you need to create this folder and inside the project you need to set the same folder name as App_NAME in .env. Bellow there is instruction in install how to use with via git.
+myapp   - is cataloge which composer create so please do not create it by yourself when you create new project, only when 
+
+you want to do it from exsiting project so you need to create this folder and inside the project you need to set the same folder 
+
+name as App_NAME in .env. Bellow there is instruction in install how to use with via git.
+
+
 
 
 ----------------------------------
